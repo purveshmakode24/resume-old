@@ -1,0 +1,76 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo{profile.png}
+\name{Purvesh}{Makode}
+\position{Junior Undergraduate{\enskip\cdotp\enskip}Information Technology}
+\address{Government College of Engineering, Aurangabad}
+
+\mobile{(+91) 950-377-6135}
+\email{makodepurvesh@gmail.com}
+\homepage{purveshmakode24.github.io}
+\github{purveshmakode24}
+\linkedin{purveshmakode24}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%quote{``There is no fate but what we make."}
+
+\begin{document}
+\makecvheader
+\makecvfooter
+	{}{}
+  %{\today}
+  %{Purvesh D. Makode~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+\input{sections/interests.tex}
+\input{sections/education.tex}
+\input{sections/skills.tex}
+\input{sections/projects.tex}
+\input{sections/courses.tex}
+\input{sections/positions.tex}
+\input{sections/extracurricular.tex}
+
+\end{document}
+
+%%% TeX-engine: xelatex
+%%% End:
