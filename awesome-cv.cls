@@ -1,5 +1,6 @@
 %% Start of file `awesome-cv.cls'.
 % Awesome CV Class File
+%
 % Notes:
 % 1) This class file defines the structure and layout of the template file (cv.tex, resume.tex).
 % 2) It has been written in such a way that under most circumstances you
