@@ -1,4 +1,4 @@
-# CV
+# CV.
 
 Can be compiled using:
 
