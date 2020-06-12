@@ -6,7 +6,7 @@
 
 >`nearly_final.pdf` is my current resume with no available tex code here. Use it for reference.
 
-Can be compiled using:
+## Can be compiled using:
 
 ```shell
 $ xelatex cv.tex
